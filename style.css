@@ -2,8 +2,10 @@ header {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: black;
     font-size: 18px;
-    display: block;
-    justify-content: flex-start; 
+  }
+  nav {
+    display: flex;
+    justify-content: center;
   }
   
   header, footer {
