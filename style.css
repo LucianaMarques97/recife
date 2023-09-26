@@ -1,13 +1,20 @@
+
 header {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: black;
-    font-size: 18px;
-  }
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  color: black;
+  font-size: 18px;
+}
   nav {
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-content: flex-start;
   }
-  
+ 
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 4px;
+}
+ 
   header, footer {
     background: #58378C;
     color: white;
