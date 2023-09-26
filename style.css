@@ -1,43 +1,39 @@
-* {
-    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    
-    font-size: 65.5%;
-    --nav-bg-color: #121212;
-    --nav-text-color: white;
-    --button-bg-color: #0052CE;
-    --button-text-color: white;
-}
-
-body {
-     
-    background: #C3AEFF;
-    font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
+header {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+    display: block;
+    justify-content: flex-start; 
+  }
+  
+  header, footer {
+    background: #58378C;
+    color: white;
+    padding: 16px;
+  }
+  
+  #logo-header {
+    font-size: 32px;
+  }
+  
+  a {
     text-decoration: none;
-}
+    color: black;
+  }
+  
+  main {
+    background-color: #EF7D19;
+    padding: 16px;
+    color: white;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+  }
+  
+  img {
+    margin: 32px;
+  }
+  
+  .rede-social {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    margin: 8px;
+  } 
 
-h1 {
-    font.family: sans-serif;
-    font-color: red;
-    font-size: 20px;
-}
-p {
-    font.family: sans-serif;
-    color: red;
-    font-size: 20px;
-}
-
-section div p {
-    font.family: sans-serif;
-    color: blue;
-    font-size: 20px;
-}
