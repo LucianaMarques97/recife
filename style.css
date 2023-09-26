@@ -1,5 +1,43 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    font-size: 65.5%;
+    --nav-bg-color: #121212;
+    --nav-text-color: white;
+    --button-bg-color: #0052CE;
+    --button-text-color: white;
+}
+
+body {
+     
+    background: #C3AEFF;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font.family: sans-serif;
+    font-color: red;
+    font-size: 20px;
+}
 p {
     font.family: sans-serif;
     color: red;
-    font-size: 50px;
+    font-size: 20px;
+}
+
+section div p {
+    font.family: sans-serif;
+    color: blue;
+    font-size: 20px;
 }
