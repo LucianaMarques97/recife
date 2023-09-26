@@ -3,24 +3,40 @@ header {
   font-family: 'Lucida Sans', Verdana, sans-serif;
   color: black;
   font-size: 18px;
-}
-  nav {
-    display: block;
-    justify-content: flex-start;
-  }
- 
-ul li a {
   display: flex;
-  list-style-type: none;
-  margin-left: 4px;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 8px;
   align-items: center;
   height: 100%;
 }
+div {
+  background: #58378C;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}  
+main div {
+  display: block;
+  background: #EF7D19;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}  
+nav {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
  
   header, footer {
     background: #58378C;
     color: white;
     padding: 16px;
+    align-items: center;
+    height: 100%
   }
   
   #logo-header {
@@ -30,6 +46,9 @@ ul li a {
   a {
     text-decoration: none;
     color: black;
+    margin-left: 16px;
+    align-items: center;
+    height: 100%;
   }
   
   main {
