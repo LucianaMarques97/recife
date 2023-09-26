@@ -16,7 +16,8 @@ header {
 div {
   background: #58378C;
   display: block;
-
+  justify-content: center;
+  align-items: center;
 }  
 main div {
   display: block;
